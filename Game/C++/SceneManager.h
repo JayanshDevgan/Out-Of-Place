@@ -8,6 +8,7 @@ API_AUTO_SERIALIZATION();
 DECLARE_SCRIPTING_TYPE(SceneManager);
 
     // [Script]
+    void OnStart() override;
     void OnEnable() override;
     void OnDisable() override;
     void OnUpdate() override;

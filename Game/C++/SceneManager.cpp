@@ -7,6 +7,11 @@ SceneManager::SceneManager(const SpawnParams& params)
     _tickUpdate = true;
 }
 
+void SceneManager::OnStart()
+{
+
+}
+
 void SceneManager::OnEnable()
 {
     // Here you can add code that needs to be called when script is enabled (eg. register for events)
