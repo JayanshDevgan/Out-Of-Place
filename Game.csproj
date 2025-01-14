@@ -180,8 +180,10 @@
 
   <ItemGroup>
     <Compile Include="Game.Gen.cs" />
+    <Compile Include="Game\CinematicSequence.cs" />
     <Compile Include="Game\ExitOnEsc.cs" />
     <Compile Include="Game\FreeCamera.cs" />
+    <Compile Include="Game\SceneManager.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|x64' " >
     <Compile Visible="false" Include="C:\dev\Games\Out_Of_Peace\Cache\Intermediate\GameEditorTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />
