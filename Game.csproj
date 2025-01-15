@@ -183,6 +183,7 @@
     <Compile Include="Game\CinematicSequence.cs" />
     <Compile Include="Game\ExitOnEsc.cs" />
     <Compile Include="Game\FreeCamera.cs" />
+    <Compile Include="Game\Scene1_Level.cs" />
     <Compile Include="Game\SceneManager.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|x64' " >
